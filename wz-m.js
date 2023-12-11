@@ -4,7 +4,7 @@ let dropMArea = document.querySelector('.c-wz-mdrop-box');
 
 let mobileWidgetOrder = [];
 let oldMobileWidgetOrder = localStorage.getItem('MV_WIDGET_ORDER');
-var defaultMobileWidgetOrder = 'mwzd-shapshot,mwzd-insights,mwzd-placeholder,mwzd-trends,mwzd-debts,mwzd-cash-flow,mwzd-recent-transactions,mwzd-recurring-merchants,mwzd-placeholder,mwzd-balance-sheet,mwzd-budgets,mwzd-credit-score,mwzd-placeholder';
+var defaultMobileWidgetOrder = 'mwzd-snapshot,mwzd-insights,mwzd-placeholder,mwzd-trends,mwzd-debts,mwzd-cash-flow,mwzd-recent-transactions,mwzd-recurring-merchants,mwzd-placeholder,mwzd-balance-sheet,mwzd-budgets,mwzd-credit-score,mwzd-placeholder';
 
 if (!oldMobileWidgetOrder) {
     localStorage.setItem('MV_WIDGET_ORDER', defaultMobileWidgetOrder);
